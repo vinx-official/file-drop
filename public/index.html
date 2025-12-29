@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>File Drop</title>
+    <title> VINX File Drop</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
@@ -161,7 +161,7 @@
       <header class="bg-black p-6 text-white text-center">
         <div class="flex items-center justify-center gap-3 mb-2">
           <i class="fas fa-cloud-upload-alt text-2xl"></i>
-          <h1 class="text-3xl font-bold">File Drop</h1>
+          <h1 class="text-3xl font-bold">VINX File Drop</h1>
         </div>
         <p class="text-gray-300 text-sm">Anonymous File Sharing</p>
       </header>
@@ -488,21 +488,25 @@
         </main>
       </div>
 
-      <footer class="bg-black p-4 text-center">
-        <div class="flex items-center justify-center gap-4">
-          <a
-            href="https://github.com/besoeasy/file-drop"
-            target="_blank"
-            class="flex items-center gap-2 text-white hover:text-gray-300 transition-colors duration-300"
-          >
-            <i class="fab fa-github"></i>
-            <span class="font-semibold">GitHub</span>
-          </a>
-          <span class="text-gray-400">•</span>
-          <span class="text-gray-300 font-mono text-sm">v{{ status.appver }}</span>
-        </div>
-      </footer>
-    </div>
+<footer class="bg-black p-4 text-center">
+  <div class="flex items-center justify-center gap-4">
+    <a
+      href="https://youtube.com/@yourchannel"
+      target="_blank"
+      class="flex items-center gap-2 text-red-500 hover:text-red-400 transition-colors duration-300"
+    >
+      <i class="fab fa-youtube text-xl"></i>
+      <span class="font-semibold">YouTube</span>
+    </a>
+
+    <span class="text-gray-500">•</span>
+
+    <span class="text-gray-400 font-mono text-sm">
+      VINX File Drop · v{{ status.appver }}
+    </span>
+  </div>
+</footer>
+
 
     <script>
       const { createApp } = Vue;
